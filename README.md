@@ -79,6 +79,8 @@ A[5[3]:"b"]   â†’ A A b A A
 
 ## 5. Replace (Multi)
 
+When using multi-replace, any index not explicitly replaced retains the original value ```X```.
+
 ```
 X[n[i,j,k]:Y,Z,T]
 ```

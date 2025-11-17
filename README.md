@@ -1,4 +1,4 @@
-# Kevin Coder Text Language â€“ v1
+# Kevin Coder Text Language - v1
 A compact, expressive texting language for coders who think in brackets, arrays, recursion, and chaos.  
 This is **not** a programming language.  
 This is a **human-readable conlang** that uses code-like syntax to express meaning, mood, and patterns.
@@ -7,10 +7,10 @@ This is a **human-readable conlang** that uses code-like syntax to express meani
 
 ## 0. Base Concepts
 
-- **X, Y, Z, T** â†’ tokens or sequences (`"A"`, `"hello"`, lists, etc.)
-- **n, i, j, k** â†’ integers  
+- **X, Y, Z, T** tokens or sequences (`"A"`, `"hello"`, lists, etc.)
+- **n, i, j, k** integers  
 - **Indexing starts at 1**  
-- **Sequences** â†’ ordered lists of tokens  
+- **Sequences** ordered lists of tokens  
 
 ---
 
@@ -53,8 +53,8 @@ Creates `n` repetitions of `X`.
 Examples:
 
 ```
-A[3]        â†’ AAA
-hello[2]    â†’ hello hello
+A[3]         AAA
+hello[2]     hello hello
 ```
 
 ---
@@ -72,7 +72,7 @@ Example:
 
 ```
 A = A
-A[5[3]:"b"]   â†’ A A b A A
+A[5[3]:"b"]    A A b A A
 ```
 
 ---
@@ -90,7 +90,7 @@ Example:
 ```
 A = A
 A[5[1,3,5]:"x","y","z"]
-â†’ x A y A z
+ x A y A z
 ```
 
 ---
@@ -106,7 +106,7 @@ Example:
 ```
 A = A
 A[4+"b"@2]
-â†’ A b A A A
+ A b A A A
 ```
 
 ---
@@ -122,7 +122,7 @@ Example:
 ```
 A = A
 A[5[-3]]
-â†’ A A A A
+ A A A A
 ```
 
 ---
@@ -130,14 +130,14 @@ A[5[-3]]
 ## 8. Mix
 
 ```
-X[n[iâ†’j]]
+X[n[ij]]
 ```
 
 Example:
 
 ```
-[a,b,c,d][4[1â†’3]]
-â†’ c b c d
+[a,b,c,d][4[13]]
+ c b c d
 ```
 
 ---
@@ -149,7 +149,7 @@ Example:
 A = hello[2]
 B = world
 A[[2]:B]
-â†’ hello world
+ hello world
 ```
 
 ### I am Kevin
@@ -158,14 +158,14 @@ A = I
 B = am
 K = Kevin
 A[BK]
-â†’ I am Kevin
+ I am Kevin
 ```
 
 ### Screaming with a Glitch
 ```
 A = A
 A[[A]:100[50]:"b"]
-â†’ AAA...A b A...AAA
+ AAA...A b A...AAA
 ```
 
 ---

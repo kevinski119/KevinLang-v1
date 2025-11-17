@@ -164,7 +164,7 @@ A[BK]
 ### Screaming with a Glitch
 ```
 A = A
-A[[A]:100[50]:"b"]
+A[100[50]:"b"]
  AAA...A b A...AAA
 ```
 

@@ -261,16 +261,6 @@ It is a **texting dialect** built for coders who communicate using symbolic shor
 
 ---
 
-## 14. do what you want as long as it's understandable
-
-basically there's no rules...
-
-this language is built for texting and python like syntax.
-
-you can combine everything to create something.
-
-also you can use normal python like 
-
 ## 14. Do what you want (as long as it's understandable)
 
 KevinLang is meant for **texting**, thinking out loud, and being a bit chaotic.
